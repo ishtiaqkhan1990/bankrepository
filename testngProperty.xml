@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="loan">
+  <test name="Regression">
+    <classes>
+      <class name="Bank.TDbank.HomeLoanTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+    <test  name="Retest">
+    <classes>   
+      <class name="Bank.TDbank.GoldLoanTest"/>
+      <class name="Bank.TDbank.StudyLoanTest"/>      
+    </classes>
+  </test> <!-- PersonalLoan -->
+  
+   <test  name="Smoke">
+    <classes>   
+      <class name="Bank.TDbank.CommercialLoanTest"/>      
+    </classes>
+  </test> <!-- PersonalLoan -->
+  
+</suite> <!-- loan -->
